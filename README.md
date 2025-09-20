@@ -47,13 +47,93 @@ javac MiniSandboxGUI.java
 java MiniSandboxGUI
 
 ```
-### Project Structure
-```
+## Project Structure
+``` Structure
 
 java-mini-sandbox/
 ├── MiniSandboxGUI.java   # Main GUI sandbox app
 ├── UserProgram.java      # Example user program
 ├── .gitignore            # Ignore compiled files
 ├── README.md             # Project documentation
+
+```
+
+# Test Programs for Java Mini Sandbox
+
+Copy & paste each block into the sandbox editor and click **Run Code**.
+
+---
+
+## 1) Normal / Safe Program
+```java
+public class UserProgram {
+    public static void main(String[] args) {
+        System.out.println("✅ Hello, world! This is a safe program.");
+    }
+}
+
+```
+
+##  2) Program with Loops & Calculation
+
+```java
+public class UserProgram {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+        }
+        System.out.println("Sum of 1 to 10 is: " + sum);
+    }
+}
+```
+
+
+## 3) Malicious Program Type 1 — Infinite Loop / Timeout
+```java
+public class UserProgram {
+    public static void main(String[] args) {
+        while (true) {
+            // infinite loop
+        }
+    }
+}
+```
+
+## 4) Malicious Program Type 1 — System exit
+
+```java
+
+public class UserProgram {
+    public static void main(String[] args) {
+        System.exit(0);
+    }
+}
+```
+
+## 5) Malicious Program Type 2 — File system access
+
+```java
+import java.io.FileWriter;
+
+public class UserProgram {
+    public static void main(String[] args) throws Exception {
+        FileWriter fw = new FileWriter("secret.txt");
+        fw.write("Trying to write a file...");
+        fw.close();
+        System.out.println("File written!");
+    }
+}
+```
+
+
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
 
 
