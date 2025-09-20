@@ -48,6 +48,7 @@ java MiniSandboxGUI
 
 ```
 ### Project Structure
+```
 
 java-mini-sandbox/
 ├── MiniSandboxGUI.java   # Main GUI sandbox app
