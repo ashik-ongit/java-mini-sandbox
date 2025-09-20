@@ -1,10 +1,13 @@
 # Java Mini Sandbox  
 
-![Java](https://img.shields.io/badge/Java-21-brightgreen?logo=java&logoColor=white)  
-![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-blue)  
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)  
-![Status](https://img.shields.io/badge/Status-Active-success)  
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)  
+# Java Mini Sandbox  
+
+![Java](https://img.shields.io/badge/Java-21-brightgreen?logo=java&logoColor=white) 
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Mac-blue) 
+![License](https://img.shields.io/badge/License-MIT-yellow.svg) 
+![Status](https://img.shields.io/badge/Status-Active-success) 
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+ 
 
 ---
 
