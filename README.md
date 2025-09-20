@@ -39,3 +39,20 @@ It is designed as a **college mini-project** to demonstrate basic sandboxing tec
 ```bash
 git clone https://github.com/ashik-ongit/java-mini-sandbox.git
 cd java-mini-sandbox
+
+```
+### To Compile & Run 
+```bash
+javac MiniSandboxGUI.java
+java MiniSandboxGUI
+
+```
+### Project Structure
+
+java-mini-sandbox/
+├── MiniSandboxGUI.java   # Main GUI sandbox app
+├── UserProgram.java      # Example user program
+├── .gitignore            # Ignore compiled files
+├── README.md             # Project documentation
+
+
